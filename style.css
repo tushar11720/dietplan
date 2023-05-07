@@ -1,0 +1,123 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+  
+
+/* Center all the headings */
+
+h2 
+{
+    text-align: center;
+}
+
+/* Add some padding to the form labels and inputs */
+
+form label,
+form input 
+{
+    margin: 10px 0;
+    padding: 7px;
+}
+
+/* Style the form submit buttons */
+
+form input[type="submit"]
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Style the suggestions container */
+
+#suggestions 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style the suggestion items */
+
+.suggestion-item 
+{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+/* Style the suggestion item headings */
+
+.suggestion-item h3 
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: center;
+}
+
+/* Style the suggestion item buttons */
+
+.suggestion-item button 
+{
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add a hover effect to the suggestion items */
+
+.suggestion-item:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Add a pulse animation to the form submit buttons */
+
+form input[type="submit"]:hover 
+{
+    animation: pulse 1s ease;
+
+}
+
+@keyframes pulse 
+{
+    0%
+    {
+        transform: scale(1);
+    }
+    50%
+    {
+        transform: scale(1.1);
+    }
+    100% 
+    {
+        transform: scale(1);
+    }
+}
+
+form input[type="submit"]
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
