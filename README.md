@@ -14,8 +14,10 @@ To use the Goal Diet Tracker, simply fill out the Goal Diet form with the number
 
 # Output
 ##### Fill the data
-![1](https://user-images.githubusercontent.com/132842128/236694869-6667c074-0c80-4c65-a6be-3ddff0e80609.png)
+![img1](https://user-images.githubusercontent.com/132842128/236695307-b3ebc59b-e2f5-4917-8a43-1966cd0bbd30.png)
+
+
 
 
 ##### It gives Suggestions if your diet properly 
-![2](https://user-images.githubusercontent.com/132842128/236694878-4a7b9d58-8e9b-41d5-b918-58b2d841d81a.png)
+![img2](https://user-images.githubusercontent.com/132842128/236695291-d8a09857-6c7c-4734-ad2d-92c196b80a29.png)
